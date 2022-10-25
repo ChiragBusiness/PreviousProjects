@@ -1,0 +1,188 @@
+## notes
+
+diff between json and pickle
+importantly you have to name the file x.json when naming it
+
+json stores np arrays as lists, so when read a np array turns to a list, pickle preserves it as a list
+
+json supposed to be faster though and also more readable apparantly
+
+
+
+
+
+complaints about data:
+many instances where due to stock splits (i think) the price goes nutty even tough it says it is supposed to be adjusted for that stuff
+
+
+
+to reimport;
+
+import importlib
+try:
+    importlib.reload(fn)
+except:
+    import function as fn
+    
+    
+    
+Can enter command mode using ctrl M aswell as pressing escape
+
+when in command mode use b to insert cell below, a for cell above
+
+enter to get back to edit mode
+
+shift M in command mode will merge cells
+
+double tab d "dd", to delete a cell when in command mode\
+
+
+multiprocessing
+~~~~~~~~~~~~~~~~~~~~~~~
+from multiprocessing import Pool
+set num_processors to max processors, use multiprocessing.cpu_count()
+p=Pool(processes = num_processors)
+
+split the array into num_cpu parts:
+tasks = np.array_split(a,12)
+
+output = p.map(functions.worker,tasks)
+
+for i in output:
+    z = np.append(z, i)
+    
+    
+the desired result is z
+
+
+****Importantly for functions with multiple argments you cannot juist use .map, need to use .starmap and pass a zip object or list or somestuff
+
+
+
+idk why if name == main does not work in jupterlab
+
+
+Instead of using time.time() use time.perf_counter(), its more accurate
+
+Date1 = np.load("training_sets/Date1.npy", allow_pickle = True)
+
+For plotting the tree:
+fig, ax = plt.subplots(figsize=(35, 10))  # whatever size you want
+xgboost.plot_tree(bst, ax=ax)
+plt.show()
+
+
+for dumping lists:
+with open('top_50.pkl', 'wb') as f:
+    pickle.dump(top50, f)
+    
+for loading lists:
+with open('top_50.pkl', 'rb') as f:
+    top50 = pickle.load(f)
+    
+    
+for loading numpy list:
+Date2 = np.load("training_sets/Date2.npy", allow_pickle = True)
+    
+    
+    
+Stuff always imported:
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import xgboost
+
+from functions import make_dataset
+
+from functions import make_portfolio
+
+from sklearn.utils import shuffle
+
+
+import time
+
+import pickle
+
+
+params:
+params1 = {
+  'colsample_bynode': 0.6,
+    'colsample_bytree' : 0.6,
+    'colsample_bylevel' : 0.5,
+  'learning_rate': 0.3,
+  'max_depth': 3,
+  'num_parallel_tree': 60,
+  'objective': 'multi:softprob',
+  'subsample': 0.9,
+'num_class' : 2,
+  'tree_method': 'gpu_hist',
+    "verbosity" : 0,
+    "lambda" : 1,
+    "alpha" : 0
+}
+
+
+for saving and loading models:
+
+***[[[  if you also want the model to save feature names, save the file as a .json, then when you load it will alr have feature names]]]
+bst.save_model("test_model")
+
+bst2 = xgboost.Booster()
+
+bst2.load_model("test_model")
+
+to continue training just use xgb_model in the command line params:
+bst = xgboost.train(params1, xgtrain, num_boost_round = 100, evals = [(xgtrain, "train"), (xgeval, "eval")], evals_result = a, verbose_eval = True, xgb_model = bst2)
+
+
+from pympler import asizeof
+asizeof.asizeof(temp)
+
+
+How wrappers and decoraors work:
+
+
+wrappers first:
+ 
+def test(func):
+    
+    def wrapper():
+        
+        print("start")
+        func()
+        print("end")
+        
+    return wrapper
+    
+    
+def func():
+    print("broooo")
+    
+test(func)()
+
+"""
+start
+broooo
+end
+"""
+
+basically the wrappers literally wrapped around the function, this is because functions can be passed around like objects
+decorators make this easier to do, but is essentialy the same:
+
+@test
+def func():
+    print("broooo")
+    
+    
+func()
+
+"""
+start
+broooo
+end
+
+"""
+
+decorators does the same stuff with only needing to call the og function
+

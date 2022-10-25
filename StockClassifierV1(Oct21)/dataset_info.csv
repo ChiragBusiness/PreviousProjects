@@ -1,0 +1,246 @@
+columns,percent_valid,where
+Abnormal Derivatives,0.0737255532767711,income
+Abnormal Gains (Losses),54.311604402085756,income
+Accounting Charges & Other,0.12064181445289313,income
+Accounts & Notes Receivable,91.8875082103457,balance
+Accounts Payable,93.7453921529202,balance
+"Accounts Receivable, Net",83.55518022546616,balance
+Accrued Liabilities,1.2225037197892807,balance
+Accrued Taxes,22.820069436066536,balance
+Accumulated Depreciation,18.982319271859627,balance
+Acquired In-Process R&D,0.03619254433586683,income
+Acquisition of Fixed Assets & Intangibles,23.648476561976384,cashflow
+Acquisition of Intangible Assets,2.300237262235094,cashflow
+Additional Paid in Capital,10.92210560180158,balance
+Adj. Close,100.0,prices
+Asset Write-Down,0.06970415946166986,income
+Assets Held-for-Sale,6.67953512687498,balance
+Book to Market Value,96.70825158467471,derived_shareprices
+Cash & Cash Equivalents,99.6742671009772,balance
+Cash for Acquisition of Subsidiaries,1.300250666881142,cashflow
+Cash for Joint Ventures,0.13672738971327592,cashflow
+Cash from (Repayment of) Debt,83.76697363306123,cashflow
+"Cash from (Repayment of) Long Term Debt, Net",6.931542472621011,cashflow
+"Cash from (Repayment of) Short Term Debt, Net",5.1594482647685735,cashflow
+Cash from (Repurchase of) Equity,85.33129582713369,cashflow
+Cash from Long Term Debt,5.381965389203902,cashflow
+"Cash, Cash Equivalents & Short Term Investments",99.76407822951435,balance
+Change in Accounts Payable,6.674173268454842,cashflow
+Change in Accounts Receivable,8.392648892106003,cashflow
+Change in Cash from Disc. Operations and Other,3.2171150520770464,cashflow
+Change in Fixed Assets & Intangibles,98.22254393372742,cashflow
+Change in Inventories,6.18758461682819,cashflow
+Change in Other,9.935523652497958,cashflow
+Change in Working Capital,97.88072545944424,cashflow
+Close,100.0,prices
+Common Stock,11.499845846570423,balance
+Cost of Financing Revenue,0.48122679320652395,income
+Cost of Goods & Services,2.8471468210881867,income
+Cost of Other Revenue,0.39677752308949765,income
+Cost of Revenue,90.97063042050375,income
+Currency,,
+Current Income Tax,0.2453050227208764,income
+Current Portion of Long Term Debt,4.865886516266538,balance
+Current Ratio,99.94504095119369,derived_figures
+Date,,
+Debt Ratio,99.95040280961382,derived_figures
+Decrease in Capital Stock,41.75949384056514,cashflow
+Decrease in Long Term Investment,4.737201914183453,cashflow
+Deferred Compensation,2.1876382354123924,balance
+Deferred Income Tax,0.19168643851958933,income
+Deferred Income Taxes,7.062908003914159,cashflow
+Deferred Revenue (Long Term),12.88454578356858,balance
+Deferred Revenue (Short Term),30.531762308816234,balance
+Deferred Tax Assets (Long Term),37.6911837642927,balance
+Deferred Tax Assets (Short Term),24.08412755861181,balance
+Deferred Tax Liabilities (Long Term),56.531413788018924,balance
+Deferred Tax Liabilities (Short Term),7.5696036246162945,balance
+Depreciation & Amortization,97.15955550193696,cashflow
+Derivative & Hedging Assets (Long Term),2.0241015535984785,balance
+Derivative & Hedging Assets (Short Term),3.4114824198066995,balance
+Discontinued Operations,15.489068511145964,income
+Discontinued Operations (Long Term),1.517405932896343,balance
+Discontinued Operations (Short Term),2.4289218643181676,balance
+Disposal of Assets,0.0898111285371539,income
+Disposition of Fixed Assets,7.3323413895256095,cashflow
+Disposition of Fixed Assets & Intangibles,10.876529805230495,cashflow
+Disposition of Intangible Assets,0.1394083189233397,cashflow
+Dividend,0.7673920863073502,prices
+Dividends Paid,51.15078886342006,cashflow
+Dividends Per Share,51.012721009101746,derived_figures
+EBITDA,97.11129877615582,derived_figures
+EV/EBITDA,93.35188366828977,derived_shareprices
+EV/FCF,87.29364700925565,derived_shareprices
+EV/Sales,93.92270747186745,derived_shareprices
+Early Extinguishment of Debt,0.3217115052077002,income
+"Earnings Per Share, Basic",99.42896207825632,derived_figures
+"Earnings Per Share, Diluted",99.4276216136513,derived_figures
+Effect of Foreign Exchange Rates,57.71370356965724,cashflow
+Enterprise Value,96.47427086169678,derived_shareprices
+Equity Before Minority Interest,99.35389606037452,balance
+Equity Per Share,98.78285813863084,derived_figures
+Financing Revenue,1.0080293829841436,income
+Finished Goods,0.8377903781450646,balance
+Fiscal Period,,
+Fiscal Year,100.0,balance
+Foreign Exchange Gain (Loss),5.242557070280562,income
+Free Cash Flow,88.72937360089007,derived_figures
+Free Cash Flow Per Share,88.28836074583451,derived_figures
+Free Cash Flow to Net Income,88.70524523799949,derived_figures
+General & Administrative,6.23986273642444,income
+Goodwill,70.21621694079168,balance
+Gross Profit,90.9103095132773,income
+Gross Profit Margin,90.77358212356403,derived_figures
+High,100.0,prices
+Impairment of Goodwill & Intangibles,0.49731236846690674,income
+Income (Loss) Incl. Minority Interest,100.0,income
+Income (Loss) from Affiliates,13.526628329378966,income
+"Income (Loss) from Affiliates, Net of Taxes",6.08302837763569,income
+Income (Loss) from Continuing Operations,100.0,income
+"Income Tax (Expense) Benefit, Net",92.84594040294365,income
+Income Taxes Receivable,16.393882119542635,balance
+Increase in Capital Stock,61.77263039369445,cashflow
+Increase in Long Term Investment,4.579027090789667,cashflow
+Insurance Settlement,0.0026809292100637983,income
+Intangible Assets,54.346456481816595,balance
+Interest & Dividends Payable,10.662055468425358,balance
+Interest Expense,10.742483344727283,income
+"Interest Expense, Net",88.58460342354661,income
+Interest Income,8.048149488612754,income
+Inventories,69.02454390691814,balance
+Investments in Affiliates,9.23446066406617,balance
+Legal Settlement,0.12734413747804707,income
+Liabilities from Derivatives & Hedging (Long Term),2.627310625862922,balance
+Liabilities from Derivatives & Hedging (Short Term),4.201016072170615,balance
+Liabilities from Discontinued Operations (Long Term),1.5227677913164706,balance
+Liabilities from Discontinued Operations (Short Term),2.3927293199823008,balance
+Liabilities to Equity Ratio,99.9369981635635,derived_figures
+Long Term Borrowings,2.794868701491937,balance
+Long Term Capital Leases,0.6286778997600551,balance
+Long Term Debt,79.77909143309071,balance
+Long Term Investments,1.8967574161204315,balance
+Long Term Investments & Receivables,27.802576372970865,balance
+Long Term Marketable Securities,1.0147317060092975,balance
+Long Term Receivables,1.1380544496722544,balance
+Low,99.9999781469391,prices
+Market-Cap,97.58794655090955,derived_shareprices
+Merger & Acquisition Expense,0.11527995603276553,income
+Minority Interest,36.878862213643245,balance
+Misc. Long Term Assets,96.46519483653034,balance
+Misc. Long Term Liabilities,94.60999182316591,balance
+Misc. Short Term Assets,63.68815431428534,balance
+Misc. Short Term Liabilities,61.76324714145923,balance
+Net Cash Before Disc. Operations and FX,100.0,cashflow
+Net Cash Before FX,100.0,cashflow
+Net Cash from Acquisitions & Divestitures,49.354566292677035,cashflow
+Net Cash from Discontinued Operations (Financing),1.4785324593504123,cashflow
+Net Cash from Discontinued Operations (Investing),3.1608155386657066,cashflow
+Net Cash from Discontinued Operations (Operating),4.932909746518144,cashflow
+Net Cash from Divestitures,1.9798662216324203,cashflow
+Net Cash from Financing Activities,99.50670902534819,cashflow
+Net Cash from Investing Activities,99.7372689374137,cashflow
+Net Cash from Operating Activities,99.99463814157987,cashflow
+Net Cash from Other Acquisitions,4.729159126553261,cashflow
+Net Change in Cash,100.0,cashflow
+Net Change in Long Term Investment,35.99013418050696,cashflow
+Net Extraordinary Gains (Losses),15.727671210841676,income
+Net Income,100.0,income
+Net Income (Common),100.0,income
+Net Income from Discontinued Operations,2.684950603879299,cashflow
+Net Income/Starting Line,98.42227315987722,cashflow
+Net Profit Margin,98.0456026058632,derived_figures
+Non-Cash Items,98.53755311590997,cashflow
+Non-Operating Income (Loss),99.25872307341724,income
+"Notes Receivable, Net",2.955724454095787,balance
+Open,100.0,prices
+Operating Expenses,99.76675915872441,income
+Operating Income (Loss),99.99865953539496,income
+Operating Income/EV,95.96824138366588,derived_shareprices
+Operating Margin,98.0456026058632,derived_figures
+Other Abnormal Items,0.7104462406670176,income
+Other Adjustments,1.0509242503451643,income
+Other Change in Fixed Assets & Intangibles,3.195667618396536,cashflow
+Other Equity,84.64631841396229,balance
+Other Financing Activities,85.1690996099248,cashflow
+Other Intangible Assets,17.36169756437581,balance
+Other Inventory,0.6461039396254753,balance
+Other Investing Activities,68.10900658168121,cashflow
+Other Investment Income (Loss),4.907440919022532,income
+Other Long Term Assets,99.42628114904626,balance
+Other Long Term Liabilities,97.35660379887669,balance
+Other Non-Cash Adjustments,9.404699668905248,cashflow
+Other Non-Operating Income (Loss),72.01914183455986,income
+Other Operating Expenses,31.909759922789238,income
+Other Operating Income,0.8686210640608039,income
+Other Payables & Accruals,84.88760204286805,balance
+Other Post-Retirement Benefits,3.5978069999061724,balance
+Other Revenue,1.9316094958512608,income
+Other Share Capital,0.6796155547512783,balance
+Other Short Term Assets,98.58178844787602,balance
+Other Short Term Liabilities,78.0204018712886,balance
+Payables & Accruals,99.67158617176713,balance
+Pension Liabilities,18.26248977895739,balance
+Pensions,4.863205587056473,balance
+Pietroski F-Score,73.3864157316926,derived_figures
+Preferred Dividends,7.194273535207307,income
+Preferred Equity,44.13479712068202,balance
+Prepaid Expense,0.42894867361027433,balance
+Prepaid Expenses,65.26722161901316,balance
+Prepaid Pension Costs,2.045548987278989,balance
+Pretax Income (Loss),100.0,income
+"Pretax Income (Loss), Adj.",100.0,income
+Price to Book Value,90.67204281102042,derived_shareprices
+Price to Earnings Ratio (quarterly),93.27629393066199,derived_shareprices
+Price to Earnings Ratio (ttm),90.4819211812541,derived_shareprices
+Price to Free Cash Flow (quarterly),82.45371849498844,derived_shareprices
+Price to Free Cash Flow (ttm),82.70832850744905,derived_shareprices
+Price to Sales Ratio (quarterly),91.51185594112611,derived_shareprices
+Price to Sales Ratio (ttm),88.69875511853319,derived_shareprices
+"Property, Plant & Equipment",23.761075588799073,balance
+"Property, Plant & Equipment, Net",98.89679763005857,balance
+Provision for Doubtful Accounts,1.0643288963954944,income
+Publish Date,,
+Purchase of Fixed Assets,18.74237610755888,cashflow
+Raw Materials,1.1809493170332863,balance
+Repayments of Long Term Debt,6.336376187986758,cashflow
+Report Date,,
+Research & Development,38.98875350196378,income
+Restated Date,,
+Restructuring Charges,0.6300183643650925,income
+Retained Earnings,95.13947534215359,balance
+Return on Assets,99.95040280961382,derived_figures
+Return on Equity,99.9369981635635,derived_figures
+Revenue,98.4008257261967,income
+Sale of Business,0.2426240935108126,income
+Sale of Investments & Unrealized Investments,0.09651345156230784,income
+Sales & Services Revenue,4.725137732738172,income
+Sales Per Share,97.82978780445303,derived_figures
+Selling & Marketing,5.434243508800152,income
+"Selling, General & Administrative",94.39953888017587,income
+Share Capital & Additional Paid-In Capital,98.38876154475142,balance
+Shares (Basic),99.47319741022238,balance
+Shares (Diluted),99.47185694561736,balance
+Shares Outstanding,97.58794655090955,prices
+Short Term Borrowings,3.9423064033994204,balance
+Short Term Capital Leases,0.19570783233469058,balance
+Short Term Debt,65.49644106647364,balance
+Short Term Investments,31.443278240238072,balance
+SimFinId,100.0,balance
+Source,,
+Stock-Based Compensation,7.267999088484068,cashflow
+Tax Allowance/Credit,0.0,income
+Total Assets,100.0,balance
+Total Current Assets,100.0,balance
+Total Current Liabilities,99.99463814157987,balance
+Total Debt,99.95174327421884,derived_figures
+Total Equity,99.99865953539496,balance
+Total Liabilities,100.0,balance
+Total Liabilities & Equity,100.0,balance
+Total Noncurrent Assets,99.94504095119369,balance
+Total Noncurrent Liabilities,99.15684776343481,balance
+Treasury Stock,47.036902990576536,balance
+Unbilled Revenues,0.23860269969571135,balance
+Volume,100.0,prices
+Work In Process,0.8083001568343628,balance
+Working Capital,99.99463814157987,balance
+daily_return,99.95482972313484,prices
